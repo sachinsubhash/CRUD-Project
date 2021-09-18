@@ -1,0 +1,32 @@
+.user-list {
+    background-color: white;
+    border: 1px solid grey;
+    width: 300px;
+    display: grid;
+    overflow: hidden;
+    height: 70px;
+    align-content: space-between;
+    justify-content: start;
+    justify-items: stretch;
+}
+
+.user-name {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.user-contacts {
+    font-weight: 600;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.user-website {
+    justify-content: space-between;
+}
+
+.edit-btn:hover {
+    cursor:pointer;
+}
